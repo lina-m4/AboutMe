@@ -27,6 +27,13 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                 }
+                HStack {
+                    Image("aboutmepic")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        
+                        
+                }
             }
             .padding()
             
