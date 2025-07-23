@@ -14,17 +14,19 @@ struct ContentView: View {
                 .cornerRadius(20)
                 .padding()
             VStack(spacing: 20.0) {
-                Image("hooping")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(20)
-                    .padding()
+                HStack {
+                    Image("hooping")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(20)
+                        .padding()
                     
                     
-                Text("Lina M")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
+                    Text("Lina M")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
+                }
             }
             .padding()
             
