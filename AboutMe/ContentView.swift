@@ -13,9 +13,9 @@ struct ContentView: View {
             Color(red: 118/225, green: 104/225, blue: 158/225)
                 .cornerRadius(20)
                 .padding()
+                .shadow(radius: 15)
             
             VStack(spacing: 30.0) {
-
                 Text("Lina M")
                     .font(.title)
                     .fontWeight(.bold)
@@ -34,13 +34,12 @@ struct ContentView: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.center)
-                        
-                        
                 }
                 .padding(10)
                 .background(Rectangle() .foregroundColor(Color(red: 95/225, green: 80/225, blue: 135/225)))
                 .cornerRadius(20)
                 .padding(8)
+                .shadow(radius: 5)
                 
                 HStack {
                     Text("I'm a rising sophomore in northern Virginia!")
@@ -58,11 +57,10 @@ struct ContentView: View {
                 .padding(10)
                 .background(Rectangle() .foregroundColor(Color(red: 95/225, green: 80/225, blue: 135/225)))
                 .cornerRadius(20)
+                .shadow(radius: 5)
                 
             }
             .padding()
-            
-
         }
     }
 }
